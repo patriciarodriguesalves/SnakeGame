@@ -1,0 +1,45 @@
+body{
+    height: 97.5vh;
+    width: 95vw; 
+    font-family: 'Permanent Marker', cursive;
+    font-size: 28px;
+    background-image: linear-gradient(#D35529 0%, #FFEBA3 50%, #291633 100%);
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+h1{
+    color: #008000;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+#game{
+    margin-right: 30px;
+}
+
+#snake{
+    margin-top: -30px;
+}
+
+#rule{
+    border: 1px solid #000;
+    padding: 10px;
+    margin-right: -30px;
+}
+
+#rule p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    padding: 10px;
+    width: 200px;
+    height: 400px;
+}
+
